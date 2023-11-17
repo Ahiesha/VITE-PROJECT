@@ -14,6 +14,7 @@ const Cv = () => {
             <div className="line"></div>
             <p>Frontend Developer</p>
           </div>
+          <br></br>
           <div className="detail-con">
             <h2>Details:</h2>
             <div className="line"></div>
@@ -38,6 +39,7 @@ const Cv = () => {
               </li>
             </ul>
           </div>
+          <br></br>
           <div className="skill-con">
             <h2>Skills:</h2>
             <div className="line"></div>
