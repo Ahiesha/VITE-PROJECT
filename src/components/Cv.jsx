@@ -54,7 +54,7 @@ const Cv = () => {
         </div>
         <div className="right-con">
           <br></br>
-          <h2>Objectives:</h2>
+          <h2><u>Objectives:</u></h2>
           <div className="line"></div>
           <br></br>
           <p>
@@ -62,7 +62,7 @@ const Cv = () => {
             able to contribute to a more complex project as a team member.
           </p>
           <div className="cer-con">
-            <h2>Certificates:</h2>
+            <h2><u>Certificates:</u></h2>
             <ul>
               <li>Model Making</li>
               <li>SNC Training</li>
@@ -70,12 +70,20 @@ const Cv = () => {
               <li>Full Stack Development</li>
             </ul>
             <div className="Edu-con">
-              <h2>Education:</h2>
+              <h2><u>Education:</u></h2>
               <ul>
                 <li>BSc in Compuer Science</li>
                 <li>MSc in Compuer Science</li>
               </ul>
             </div>
+            <div className="btn">
+            <button className="btn">Download Cv</button>
+
+            </div>
+            
+            
+            
+            
           </div>
         </div>
       </div>

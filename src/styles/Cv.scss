@@ -117,13 +117,41 @@ $j: 160px;
 .img-con {
   height: 150px;
   width: 150px;
-  animation: myanim 1s linear infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  
+ 
 }
 .Edu-con {
   margin: 50px auto;
   > ul li {
     margin: 20px;
   }
+}
+.btn{
+  
+  width: 200px;
+  height:200;
+  font-size: large;
+  
+  margin-left: 0px;
+  background-color: rgb(119, 58, 119);
+  color: white;
+  border-radius: 40px;
+  transition: 0.5 ease-in-out;
+
+
+  
+
+  
+  
+}
+.btn:hover{
+  background-color: rgb(239, 155, 239);
+  color: black;
 }
 
 @keyframes myanim {
